@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-[Live View](https://your-live-site-url.com)
+[Live View](https://bague-rodnel.github.io/faq-accordion-card/)
 
 ## My process
 
