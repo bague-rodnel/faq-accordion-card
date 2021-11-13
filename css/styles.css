@@ -59,7 +59,6 @@ body {
 .card .content .questions .item {
   position: relative;
   border-bottom: 1px solid #e7e7e9;
-  padding: 18px 0 16px;
 }
 .card .content .questions .item .arrow {
   position: absolute;
@@ -74,7 +73,7 @@ body {
   position: relative;
   display: inline-block;
   width: 100%;
-  padding-right: 40px;
+  padding: 18px 40px 16px 0;
   color: #4a4b5e;
 }
 .card .content .questions .question::after {
