@@ -85,6 +85,8 @@ body {
       .item {
         position: relative;
         border-bottom: 1px solid $color-divider;
+        // padding-bottom: 16px;
+        transition: padding-bottom 0.3s;
 
         .arrow {
           position: absolute;
@@ -130,7 +132,7 @@ body {
       height: auto;
       overflow: hidden;
       transition: all 0.5s ease;
-      margin-top: 0;
+      margin-bottom: 0;
     }
 
     .answer-input:checked ~ .question {
@@ -138,9 +140,8 @@ body {
     }
 
     .answer-input:checked ~ .answer {
-      margin-top: 12px;
       max-height: 120px;
-      margin-bottom: 3px;
+      margin-bottom: 15px;
     }
 
     .answer-input:checked ~ .question::after {
